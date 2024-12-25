@@ -272,6 +272,31 @@
 
 }
 
+.gauchedelapage {
+    position: relative;
+    width: 300px;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    left: 0;
+}
+
+.gauchedelapage::-webkit-scrollbar {
+    display: none;
+}
+
+.band {
+    display: flex;
+    position: relative;
+    width: 15vw;
+    overflow-x: none;
+    overflow-y: hidden;
+
+}
+
 #boxmd {
     position:absolute;
     display: flex;
@@ -350,6 +375,8 @@
         min-height: 70px;
         display: flex;
         align-items: center;
+        text-align: center;
+        justify-content: center;
         background-color: rgb(255, 255, 255);
         border: solid 1px red;
         flex-direction: column;
@@ -376,6 +403,9 @@
 
     h4 {
         text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .items h2 {

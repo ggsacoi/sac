@@ -177,22 +177,22 @@ section.addEventListener("click", () => {
   });
 
     let availableKeywords = [
-        {value:'dark white', url: "again.html"},
+        {value:'Sac à main Medusa 95 effet croco', url: "again.html"},
         {value:'sky begin night', url:"again2.html"},
-        {value:'uptown bleumarine', url:"again3.html"},
-       {value:'uptown nature', url:"again4.html"},
+        {value:'sac louis petit modele', url:"again3.html"},
+       {value:'Sac à main Sicily moyen format', url:"again4.html"},
        {value:'pink world', url:"again5.html"},
-       {value:'playa begin world', url:"again6.html"},
-       {value:'dark secret', url:"again7.html"},
+       {value:'Sac seau Shark Lock micro en cuir laminés', url:"again6.html"},
+       {value:'Sac luois moyen modele', url:"again7.html"},
        {value:'silver armor', url:"again8.html"},
        {value:'Balenciaga silver', url:"again9.html"},
-       {value:'medusa biggie noir', url:"again10.html"},
-       {value:'league of legends', url:"again11.html"},
-       {value:'gaming esp white', url:"again12.html"},
-       {value:'call of duty MW', url:"again13.html"},
-       {value:'rainbow six siege', url:"again14.html"},
-       {value:'starkIndustries', url:"again15.html"},
-       {value:'gaming esp orange', url:"again16.html"},
+       {value:'sac Prada Galleria en cuir', url:"again10.html"},
+       {value:'Sac à main Sicily moyen format', url:"again11.html"},
+       {value:'Sac Jolie Madame Medium', url:"again12.html"},
+       {value:'Sac coussain BB', url:"again13.html"},
+       {value:'Sac à épaule Gucci Diana', url:"again14.html"},
+       {value:'Petit sac Prada Galleria', url:"again15.html"},
+       {value:'Mini sac en satin La Medusa', url:"again16.html"},
     ];
 
     const resultBox = document.querySelector('.things');
