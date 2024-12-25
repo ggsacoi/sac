@@ -75,7 +75,7 @@ async function initializeNavbar() {
         const name = document.createElement("div");
         name.className = "name";
         const logo = document.createElement("h1");
-        logo.textContent = "UGLYSONG";
+        logo.textContent = "DONTBUY";
         name.appendChild(logo);
         navbar.appendChild(name);
         const sideoptions = document.createElement("div");
