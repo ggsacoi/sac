@@ -109,8 +109,8 @@ async function initializeNavbar() {
         const lielement = [
             {name:user?.firstname, url:"Mervie.html"},
             {name:'COMPTE', url:"set.html"},
-            {name:'PRINCIPAL', url:"index.html"},
-            {name:'CUSTOM', url:"catalogue.html"},
+            {name:'PREMIER', url:"index.html"},
+            {name:'DEUXIEME', url:"catalogue.html"},
             {name:'CONTACT', url:"#footer"},
             {name:'SETTINGS', url:"settings.html"},
         ];
@@ -178,12 +178,12 @@ section.addEventListener("click", () => {
 
     let availableKeywords = [
         {value:'Sac à main Medusa 95 effet croco', url: "again.html"},
-        {value:'sky begin night', url:"again2.html"},
+        {value:'Sac louise moyen modele', url:"again2.html"},
         {value:'sac louis petit modele', url:"again3.html"},
        {value:'Sac à main Sicily moyen format', url:"again4.html"},
-       {value:'pink world', url:"again5.html"},
+       {value:'CABAS ANAÏS moyen modele cuir triomphe', url:"again5.html"},
        {value:'Sac seau Shark Lock micro en cuir laminés', url:"again6.html"},
-       {value:'Sac luois moyen modele', url:"again7.html"},
+       {value:'Sac louis moyen modele', url:"again7.html"},
        {value:'silver armor', url:"again8.html"},
        {value:'Balenciaga silver', url:"again9.html"},
        {value:'sac Prada Galleria en cuir', url:"again10.html"},
