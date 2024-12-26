@@ -179,11 +179,11 @@ section.addEventListener("click", () => {
     let availableKeywords = [
         {value:'Sac à main Medusa 95 effet croco', url: "again.html"},
         {value:'Sac Antigona Cube Nano en cuir', url:"again2.html"},
-        {value:'sac louis petit modele', url:"again3.html"},
+        {value:'sac louis moyen modele marron', url:"again3.html"},
        {value:'Sac à main Sicily moyen format', url:"again4.html"},
        {value:'CABAS ANAÏS moyen modele cuir triomphe', url:"again5.html"},
        {value:'Sac seau Shark Lock micro en cuir laminés', url:"again6.html"},
-       {value:'Sac louis moyen modele', url:"again7.html"},
+       {value:'Sac louis moyen modele noir', url:"again7.html"},
        {value:'silver armor', url:"again8.html"},
        {value:'Balenciaga silver', url:"again9.html"},
        {value:'sac Prada Galleria en cuir', url:"again10.html"},
