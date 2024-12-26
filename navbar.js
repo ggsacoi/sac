@@ -178,7 +178,7 @@ section.addEventListener("click", () => {
 
     let availableKeywords = [
         {value:'Sac à main Medusa 95 effet croco', url: "again.html"},
-        {value:'Sac louise moyen modele', url:"again2.html"},
+        {value:'Sac Antigona Cube Nano en cuir', url:"again2.html"},
         {value:'sac louis petit modele', url:"again3.html"},
        {value:'Sac à main Sicily moyen format', url:"again4.html"},
        {value:'CABAS ANAÏS moyen modele cuir triomphe', url:"again5.html"},
