@@ -17,14 +17,7 @@ addEventListener('DOMContentLoaded', () => {
 
     buttonleft.addEventListener("click", ()=> {
         if (slider) { 
-            slider.scrollLeft -= img.offsetWidth;
+            slider.scrollLeft -= img.style.width;
         }
-    });
-    if(window.innerWidth <= 950) {
-        buttonleft.addEventListener("click", ()=> {
-            if (slider) { 
-                slider.scrollLeft -= window.innerWidth;
-            }
-        });
-    }
+    })
 });
