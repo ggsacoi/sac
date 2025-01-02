@@ -8,14 +8,15 @@ addEventListener('DOMContentLoaded', () => {
         const scrollAmount = img.offsetWidth; // Get the exact width of the image
 
         buttonright.addEventListener("click", () => {
-            if (slider) { 
-                slider.scrollLeft += scrollAmount; // Scroll right by the image width
+            if (slider) {
+                const maxScrollLeft = slider.scrollWidth - slider.clientWidth;
+                slider.scrollLeft = Math.min(slider.scrollLeft + scrollAmount, maxScrollLeft); // Scroll right by the image width
             }
         });
 
         buttonleft.addEventListener("click", () => {
-            if (slider) { 
-                slider.scrollLeft -= scrollAmount; // Scroll left by the image width
+            if (slider) {
+                slider.scrollLeft = Math.max(slider.scrollLeft - scrollAmount, 0); // Scroll left by the image width
             }
         });
     };
