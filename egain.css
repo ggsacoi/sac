@@ -73,20 +73,20 @@ body{
     display: flex;
     width: 100vw;
     position: relative;
-    left: 200vw;
+    left: 100vw;
 }
 .thows {
     display: flex;
     position: relative;
     width: 100vw;
-    left: 200vw;
+    left: 100vw;
 
 }
 .threes {
     display: flex;
     position: relative;
     width: 100vw;
-    left: 200vw;
+    left: 100vw;
 }
 .four {
     display: flex;
