@@ -223,7 +223,7 @@ button {
         height: 524px;
         align-items: center;
         flex-direction: row;
-        /* overflow: hidden; */
+        overflow-x: hidden;
         scroll-behavior:smooth;
         position: absolute;
         border: solid 1px red;
