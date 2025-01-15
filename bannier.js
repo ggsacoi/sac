@@ -11,16 +11,4 @@ addEventListener('DOMContentLoaded', () => {
             }
 
         }, 5000);
-        const banderole = document.querySelector(".gauchedelapage");
-        const image = document.querySelector('.band');
-        const size = image.height;
-    
-            setInterval(() =>{
-                if (banderole.scrollTop + size >= banderole.scrollHeight) {
-                        banderole.scrollTop = 0;
-                } else {
-                    banderole.scrollTop += size;
-                }
-    
-            }, 5000);
 });
