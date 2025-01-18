@@ -208,7 +208,7 @@ button {
     .boxofglass {
         position: relative;
         width: 40vw;
-        height: 100vh;
+        height: auto;
         display: flex;
         align-items: center;
         background-color: black;
